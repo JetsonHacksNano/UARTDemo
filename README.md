@@ -1,5 +1,4 @@
-# UARTDemo
-UART Demo Code
+# UART Demo Code
 
 This is currently a simple Python 3 script to interface with the UART on the J41 header of the NVIDIA Jetson Nano Developer Kit.
 
