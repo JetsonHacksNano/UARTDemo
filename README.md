@@ -2,6 +2,8 @@
 
 This is currently a simple Python 3 script to interface with the UART on the J41 header of the NVIDIA Jetson Nano Developer Kit.
 
+Original article on JetsonHacks: https://wp.me/p7ZgI9-31I
+
 <h4>Before You Start</h4>
 The stock Jetson Nano starts a console on the ttyTHS1 serial port at startup through a service. The script that starts the service is nvgetty.sh which launches getty. The script is located in /etc/systemd. While this does not conflict with the script presented here, consider disabling the console if you are using the serial port to avoid conflicts. Note that normal udev rules will be overridden by the console while the service is running. To disable the console:
 
